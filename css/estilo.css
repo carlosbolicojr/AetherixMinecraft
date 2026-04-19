@@ -1,0 +1,62 @@
+ * {
+   font-family: "Roboto Mono", monospace;
+ }
+
+body {
+    background-color: #16263a;
+    margin: 0;
+    padding: 0;
+}
+
+/* Aqui eu selecionei tanto a Tag h1 quanto p para realizar a manipulação delas juntas! 
+**APENAS PRA APRENDIZADO, APAGAR LINHA DPS */
+h1, p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+h1 {
+   font-size: 50px; 
+}
+
+p {
+ font-size: 20px;
+ color: white;
+ opacity: 70%; /* Diminui a opacidade */
+ margin: 5px; /* retirar um pouco da margem de espaço que geralmente o Paragrafo tem */
+
+
+}
+
+label {
+    color: white;
+    font-size: 15px;
+}
+
+/* Rodapé Footer */
+
+footer {
+    height: 10%; /* altura papel de fundo do footer */
+    width: 100%; /* garante 100% do tamanho da cor de fundo do footer */
+    display: flex;
+    flex-direction: column; /* pra ter quebra de linha dos icons */
+    background-color: #445D7C;
+    position: fixed;
+    text-align: center;
+    bottom: 0; /* bottom ou seja, para baixo, deixar no final da página = 0 */
+}
+
+/* Tamanho, cor sem sublinhado */
+a#footer {
+    font-size:30px;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    justify-content: center;
+}
+
+/* Copyright */
+a#copyright {
+    font-size: 20px;
+    color: white;
+
+}

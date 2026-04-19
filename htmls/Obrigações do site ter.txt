@@ -1,0 +1,48 @@
+ 1. O site deve seguir a semântica do HTML5. [V]
+ 
+ 2. Deve conter, no mínimo, sete links direcionando para sete páginas diferentes, além da página inicial. Um desses links deve levar a um formulário de contato. A estrutura e o tema do site são de livre escolha do aluno. [V] (15/04/2026 TEMOS: 7 LINKS)
+ Ideias: Termos de compra / GitHUB criador / Instagram do servidor / Regras ?
+
+
+
+ 3. Cada página deve conter, no mínimo, cinco parágrafos e dois níveis de cabeçalhos. 
+ [V] Inicio
+ [V] Loja
+ [X] Contato (Professor não botei paragráfos pq não ia ficar legal aqui, mas no restante das páginas tem!)
+ [V] Termos
+
+
+ 4. O site deve utilizar pelo menos duas imagens, sendo uma interna (hospedada no próprio site) e outra externa (vinda de um site externo). 
+ [V] Icon Imagem Externa
+ [V] Imagem Interna (página principal, demonstração do servidor)
+
+
+ 5. Todas as páginas devem conter links, sendo pelo menos um link associado a uma imagem.
+ [V] Imagem do logo no nav menu de botões (estão em todas as páginas!)
+
+ 6. Todas as imagens devem possuir texto alternativo (alt)
+ [V]
+ [V] Por nas imagens do carossel página inicial
+ 
+ 7. Criar uma lista ordenada com, no mínimo, três itens, utilizando letras minúsculas do alfabeto
+como marcadores, iniciando a partir da letra H.
+[V] Regras
+
+ 8. Criar uma lista não ordenada com, no mínimo, três itens, utilizando quadrados como marcadores.
+[V] Regras
+
+ 9. Criar uma tabela que corresponda a estrutura exigida, com conteúdo adequado ao tema do site.
+ [V]
+ 
+ 10. Criar um formulário contendo, no mínimo:
+ - 02 campos de texto [V]
+ - 01 campo do tipo radio button[V] 
+ - 01 campo do tipo checkbox [V] 
+ - 01 campo select [V]
+ - 01 campo textarea [V] 
+ - 01 campo submit [V]
+ - 01 botão [V]
+ - 01 fieldset [V]
+
+11. Todos os campos do formulário devem possuir labels associadas. O conteúdo do formulário deve
+estar alinhado ao tema do site. [V]

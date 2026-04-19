@@ -1,0 +1,36 @@
+
+.lista-quadrada { 
+    list-style-type: square;
+    text-align: left; /* listas ficam melhores alinhadas a esquerda */
+    margin: 20px auto;
+    width: 80%;
+}
+
+
+ol { /* estilo para a lista ordenada do requisito 7 */
+    text-align: center;
+    margin: 20px auto;
+    width: 80%;
+    color: white;
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+
+h5, h6 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    color: white;
+
+}
+
+
+li { /* ajuste nos itens da lista para não ficarem muito juntos */
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+}

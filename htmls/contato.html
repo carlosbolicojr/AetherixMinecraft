@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Aetherix | Contato</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="icon" alt="Icone site Aetherix" href="https://i.imgur.com/kiQ2Kpm.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/contato.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+ <nav id="nav-menu">   
+        <!-- O ALT servirá para caso a imagem falhe no carregamento, mostre o texto -->
+    <nav id="iconMenu">
+        <a href="../htmls/inicio.html"><img id="iconMenu" alt="Logo Aehterix Menu de Botões" src="../imagem/aetherix_semfundo.png"></a>
+    </nav>  
+        <a href="inicio.html"><button>Inicio</button></a>
+        <a href="loja.html"><button>Loja</button></a>
+        <a href="contato.html"><button>Fale Conosco</button></a>
+        <a href="regras.html"><button>Regras</button></a>
+    </nav>  
+<!-- 
+Criar um formulário contendo, no mínimo:
+  o 02 campos de texto [V]
+  o 01 campo do tipo radio button [V]
+  o 01 campo do tipo checkbox [V]
+  o 01 campo select [V]
+  o 01 campo textarea [V]
+  o 01 campo submit [V]
+  o 01 botão [V]
+  o 01 fieldset [V]
+-->
+
+<form>
+   <h1>Contato</h1>
+    <label for="nome-usuario">Nome:</label>
+        <input type="text" id="nome-usuario" placeholder="Nome..." required>
+        <label for="email-usuario">Email:</label>
+        <input type="email" id="email-usuario" placeholder="Email..." required>
+        <label class="radio" for="radio-player">
+        <input type="radio" id="radio-player" required name="status"> Player
+    </label>
+    
+<label class="radio" for="radio-visitante">
+    <input type="radio" id="radio-visitante" required name="status"> Visitante
+</label>
+
+    <label style="margin-top: 10px; margin-bottom: 10px;">Qual servidor você joga? </label>
+    <label class="checkbox" for="checkbox-server1">
+        <input type="checkbox" id="checkbox-server1">Server 1
+    </label>
+
+    <label class="checkbox" for="checkbox-server2">
+        <input type="checkbox" id="checkbox-server2">Server 2
+    </label>
+
+        <label for="motivo">Motivo</label>
+        <select id="motivo">
+            <option>Outro motivo</option> 
+            <option>Não recebi meu VIP</option>
+            <option>Quero ingressar na STAFF</option>
+            <option>Contestar banimento</option>
+        </select>
+
+        <label for="texto">Texto</label>
+        <textarea id="texto" placeholder="O que aconteceu?"></textarea>
+ <fieldset> <!-- serve p/ agrupar campos relacionados!
+OBS: Adicionei ao botão pois ele iria ficar muito grande e o fieldset tem essa função de agrupamento , acabou diminuindo o botão da forma com eu queria (a ser melhorado isso)-->
+     <button type="submit">Enviar</button>
+ </fieldset>
+</form>
+
+
+ <!-- Parte do Rodapé -->
+    <footer>
+        <a id="footer" target="_blank" href="https://github.com/carlosbolicojr" class="fab fa-github-alt"></a>
+
+        <a id="footer" target="_blank" href="https://www.linkedin.com/in/junior-bolico/" class="fab fa-linkedin"></a>
+
+        <a id="copyright">© 2026 Aetherix - Todos os direitos reservados</a>
+
+    </footer>    
+    
+</body>
+</html>

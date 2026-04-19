@@ -1,0 +1,115 @@
+ * {
+   font-family: "Roboto Mono", monospace;
+ }
+ 
+ body {
+    background-color: #16263a;
+    display: flex;
+    padding-top: 100px;
+    justify-content: center; /* centraliza horizontalmente */
+    align-items: center;     /* centraliza verticalmente */
+    min-height: 100px;
+  }
+
+   form {
+    justify-content: center;
+    background-color: #29405c;
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+  }
+
+  label#checkbox {
+    color: beige;
+    margin-bottom: 7px;
+  }
+
+  input, select {
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 40%;
+    height: 20px;
+    margin-bottom: 10px; /* Espaçamento entre as margem na quebra de linha */
+  }
+
+  button {
+    width: 100%;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+
+  textarea {
+    width: 60%;
+    margin-bottom: 20px; /* P/ o botão não ficar colado ao textarea */
+  }
+
+  h1, h5 {
+    font-size: 50px;
+    }
+  
+  
+
+  h1, h5, h4 {
+    color: aliceblue;
+    
+  }
+  
+  h4 {
+    align-items: center;
+  }
+
+/* Rodapé Footer */
+
+footer {
+    height: 10%; /* altura papel de fundo do footer */
+    width: 100%; /* garante 100% do tamanho da cor de fundo do footer */
+    display: flex;
+    flex-direction: column; /* pra ter quebra de linha dos icons */
+    background-color: #445D7C;
+    position: fixed;
+    text-align: center;
+    bottom: 0; /* bottom ou seja, para baixo, deixar no final da página = 0 */
+}
+
+/* Tamanho, cor sem sublinhado */
+a#footer {
+    font-size:30px;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    justify-content: center;
+}
+
+/* Copyright */
+a#copyright {
+    font-size: 20px;
+    color: white;
+
+}
+
+fieldset {
+   border: #29405c;
+}
+
+label {
+  color: white;
+  font-size: 20px;
+
+}
+
+.checkbox {
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap;
+  gap: 10px; /* Espaçamento entre os itens do radio */
+  margin-top: 10px;
+}
+
+.radio {
+
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap;
+  margin-top: 10px; 
+}

@@ -1,0 +1,49 @@
+ * {
+   font-family: "Roboto Mono", monospace;
+ }
+
+body {
+    background-color: #16263a;
+}
+
+h1 {
+    padding-top: 20px; /* preenchimento cima */
+}
+
+
+h2,h3 {
+    font-size: 25px;
+    background-color: #244163;
+}
+
+p {
+    font-size: 17px;
+
+}
+
+nav {
+    width: 80%; /* largura, defino ele em 80% não importando o que aconteça */
+    max-width: 900px; /* máximo de Largura, ele cresce até 900px em tela grandes, se diminuir encolhe junto */
+    text-align: center; /* alinha todo o texto no centro */
+    margin: 50px auto; /* cria um espaço vázio fora das bordas do elemento. */
+    color: white;
+    background-color: #284d7a;
+    padding-bottom: 40px; /* preenchimento embaixo */
+    border: 1px solid #244163;
+}
+
+button#termos {
+    /* Mesmo estilo do Botão do estilo.css */
+    padding: 15px;
+    color: white;
+    background-color: #445D7C;  
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.5s;
+
+}
+
+button#termos:hover {
+    background-color: #293c54;
+}

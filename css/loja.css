@@ -1,0 +1,100 @@
+ * {
+   font-family: "Roboto Mono", monospace;
+ }
+
+/* CSS da Loja */
+
+h1 { /* Titulo "Lojinha" */
+    color: white;
+    margin-top: 110px;
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 { /* Sob-titulo */
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 25px;
+}
+
+/* Margem entre a tabela de preços e os paragrafos, usei a class, pois se usasse apenas o "p" no CSS iria dar problema de espaçamento em cada paragráfo e não em um todo. */
+.container-paragrafos {
+    margin-top: 70px;
+}
+
+/* Tamanho, cor sem sublinhado */
+a#footer {
+    font-size:30px;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    justify-content: center;
+}
+
+/* Copyright */
+a#copyright {
+    font-size: 20px;
+    color: white;
+
+}
+
+th, td {
+    height: 34px; /* Espaçamento em questão da quebra de linha */
+    width: 450px;
+    background-color: #445D7C;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+table:hover {
+    background-color: white; 
+    transform: scale(1.08); /* Aumenta e tbm pode diminuir o tamanho da 
+    animação da tabela ao passar o mouse*/
+}
+
+table {
+    /* Tirando o espaço da borda da tabela */
+    border-spacing: 0;
+}
+
+
+/*  Planos Titulos [Prata/Ouro/Diamante] */
+th {
+    font-size: 30px;
+    color: black;
+    background-size: 50px;
+}
+
+td {
+    background-color: white;
+    margin-bottom: 0px;
+}
+
+/* Utilizei a # e ID para especificar qual tag eu quero modificar, no caso um outro
+TD com ID precoLoja */
+td#precoLoja {
+    font-size: 20px;
+    color: green;
+}
+
+button#botaocomprar {
+    padding: 7px;
+    color: white;
+    background-color: rgba(7, 194, 35, 0.981);
+    font-size: 13px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    
+}
+
+button#botaocomprar:hover {
+    background-color: rgba(10, 155, 31, 0.986);
+}
+
+.container-loja {
+    justify-content: center; /* centraliza as tabelas na tela */
+    display: flex;          /* ativa o alinhamento lado a lado */
+    gap: 30px;              /* cria o espaçamento exato entre as tabelas */
+    flex-wrap: wrap;        /* se a tela for pequena, a tabela de baixo pula para baixo (responsivo) */
+    padding: 20px;
+}
+
