@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://i.imgur.com/kiQ2Kpm.png" alt="Logo Aetherix" width="120">
-  <h1>Aetherix Tecnologia - Portal Web</h1>
-  <p><i>Desenvolvimento de interfaces funcionais para comunidades de Gaming</i></p>
+  <h1>Projeto Aetherix - Minecraft</h1>
+  <p><i>Desenvolvimento de interface funcional para comunidades de Gaming</i></p>
 
   <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-green?style=for-the-badge" alt="Status">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
@@ -58,7 +58,7 @@ Utilizamos uma estrutura separada para manter a organização do código:
 <div align="left">
   <img src="https://github.com/carlosbolicojr.png" width="100px;" alt="Foto Junior Bolico" style="border-radius: 50%;">
   <br>
-  <strong>Junior Bolico</strong><br>
+  <strong>Carlos Alberto</strong><br>
   <em>IT Technical Intern | Aluno Faetec</em>
   <br>
   <a href="https://github.com/carlosbolicojr">
